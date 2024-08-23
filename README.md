@@ -49,10 +49,18 @@ TCP/IP协议族模型:
 
   - DNS
 
+> 全世界总共13台根域名解析服务器
+
+  - DHCP
+
+  - TELNET
+
   - FTP
 
 ```sh
 ping www.baidu.com
+
+nslookup 
 
 ```
 
@@ -70,6 +78,8 @@ netstat /?
 - 网际层
 
   - IP（数据报）
+
+> 静态IP和动态IP
 
 ```sh
 ipconfig
