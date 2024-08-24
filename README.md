@@ -48,9 +48,7 @@ TCP/IP协议族模型:
   - SMTP
 
   - DNS
-
-> 全世界总共13台根域名解析服务器
-
+  
   - DHCP
 
   - TELNET
@@ -63,6 +61,31 @@ ping www.baidu.com
 nslookup 
 
 ```
+
+> 全世界总共13台根域名解析服务器
+
+同源策略相关的响应头:
+
+- `Access-Control-Allow-Origin`
+- `Access-Control-Allow-Headers`
+- `Access-Control-Allow-Credentials`
+- `Access-Control-Allow-Methods`
+- `Access-Control-Max-Age`
+- `Access-Control-Expose-Headers`
+
+缓存控制相关的请求和响应头:
+
+- `Cacche-Control`
+- `Date`
+- `Expires`
+- `Etag`
+- `Last-Modified`
+- `Pragma`
+
+> 简单请求和非简单请求（预检请求）
+
+[fetch规范](https://fetch.spec.whatwg.org/)
+
 
 - 运输层
 
