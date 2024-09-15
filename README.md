@@ -73,7 +73,7 @@ nslookup
 - `Access-Control-Max-Age`
 - `Access-Control-Expose-Headers`
 
-缓存控制相关的请求和响应头:
+缓存控制相关的请求和响应头标识:
 
 - `Cacche-Control`
 - `Date`
@@ -81,6 +81,8 @@ nslookup
 - `Etag`
 - `Last-Modified`
 - `Pragma`
+
+浏览器强制缓存: 内存缓存(from memory cache)和硬盘缓存(from disk cache)
 
 > 简单请求和非简单请求（预检请求）
 
